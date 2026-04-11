@@ -112,7 +112,7 @@ def parse(line):
 def main2():
     data = readlines(FILENAME)
     data = [parse(dat) for dat in data]
-    print_2d(data)
+    # print_2d(data)
     # you're telling me there is a solution to this?!?!
     # probably jsut need two or three to define it no?
     # at time t any stone is at, for hailstone 1:

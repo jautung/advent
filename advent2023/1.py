@@ -78,5 +78,5 @@ def read2(dat):
     return c
 
 if __name__ == '__main__':
-    # main()
+    main()
     main2()

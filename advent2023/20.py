@@ -228,9 +228,9 @@ def main2():
     caching_2 = set()
     while True:
         button_presses += 1
-        if button_presses % 10000 == 0:
-            print(f"pressing button for {button_presses} time")
-            print(minify_1())
+        # if button_presses % 10000 == 0:
+        #     print(f"pressing button for {button_presses} time")
+        #     print(minify_1())
         run_signal()
         if len(has_happened) > 0:
             break
