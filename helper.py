@@ -91,5 +91,8 @@ def dupe_array_with_def_value(array, val):
 def add_tup(a, b):
     return (a[0] + b[0], a[1] + b[1])
 
+def sub_tup(a, b):
+    return (a[0] - b[0], a[1] - b[1])
+
 def manhattan(a, b=(0,0)):
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
